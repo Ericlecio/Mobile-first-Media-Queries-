@@ -2,7 +2,7 @@
 
 /*Versão mobile*/
 
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     margin: 0px;
@@ -10,33 +10,51 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     height: 100vh;
 }
-body{
+
+body {
     background: black url(../imagens/back-phone.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
-main{
+
+main {
     background-color: rgba(240, 248, 255, 0.664);
     width: 90vw;
     margin: auto;
     border-radius: 10px;
     margin-top: 20px;
 }
-#phone{
+
+#phone {
     display: block;
 }
-img{
+
+img {
     display: block;
     margin: auto;
 }
-h1{
+
+h1 {
     text-align: center;
     color: aliceblue;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.349); 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.349);
 }
-#tablet, #print, #pc, #tv{
+
+#tablet {
+    display: none;
+}
+
+#print {
+    display: none;
+}
+
+#pc {
+    display: none;
+}
+
+#tv {
     display: none;
 }
